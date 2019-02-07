@@ -86,7 +86,8 @@ namespace AutomacaoFuncional.tests.pages
             return _result;
         }
 
-        public (bool, string) ValidarIniciados()
+        //public (bool, string) ValidarIniciados()
+        public bool ValidarIniciados()
         {
             bool _result = false;
             string valores = "Funil: " + DadosDB.Funil_SolicitacoesIniciadas + " | " + "DB: " + DadosDB.SolicitacoesIniciadas;
@@ -101,10 +102,13 @@ namespace AutomacaoFuncional.tests.pages
             {
 
             }
-            return (_result, valores);
+            //return (_result, valores);
+            return _result;
+
         }
 
-        public (bool, string) ValidarPendenteFundacred()
+        //public (bool, string) ValidarPendenteFundacred()
+        public bool ValidarPendenteFundacred()
         {
             bool _result = false;
             string valores = "Funil: " + DadosDB.Funil_PendenteAnaliseFundacred + " | " + "DB: " + DadosDB.PendenteAnaliseFundacred;
@@ -120,10 +124,12 @@ namespace AutomacaoFuncional.tests.pages
             {
 
             }
-            return (_result, valores);
+            //return (_result, valores);
+            return _result;
         }
 
-        public (bool, string) ValidarPendenteIes()
+        //public (bool, string) ValidarPendenteIes()
+        public bool ValidarPendenteIes()
         {
             bool _result = false;
             string valores = "Funil: " + DadosDB.Funil_PendenteAnaliseIes + " | " + "DB: " + DadosDB.PendenteAnaliseIes;
@@ -139,10 +145,12 @@ namespace AutomacaoFuncional.tests.pages
             {
 
             }
-            return (_result, valores);
+            //return (_result, valores);
+            return _result;
         }
 
-        public (bool, string) ValidarAprovados()
+        //public (bool, string) ValidarAprovados()
+        public bool ValidarAprovados()
         {
             bool _result = false;
             string valores = "Funil: " + DadosDB.Funil_Aprovados + " | " + "DB: " + DadosDB.Aprovados;
@@ -158,10 +166,12 @@ namespace AutomacaoFuncional.tests.pages
             {
 
             }
-            return (_result, valores);
+            //return (_result, valores);
+            return _result;
         }
 
-        public (bool, string) ValidarReprovadosFundacred()
+        //public (bool, string) ValidarReprovadosFundacred()
+        public bool ValidarReprovadosFundacred()
         {
             bool _result = false;
             string valores = "Funil: " + DadosDB.Funil_ReprovadosFundacred + " | " + "DB: " + DadosDB.ReprovadosFundacred;
@@ -177,10 +187,12 @@ namespace AutomacaoFuncional.tests.pages
             {
 
             }
-            return (_result, valores);
+            //return (_result, valores);
+            return _result;
         }
 
-        public (bool, string) ValidarReprovadosIes()
+        //public (bool, string) ValidarReprovadosIes()
+        public bool ValidarReprovadosIes()
         {
             bool _result = false;
             string valores = "Funil: " + DadosDB.Funil_ReprovadosIes + " | " + "DB: " + DadosDB.ReprovadosIes;
@@ -196,7 +208,8 @@ namespace AutomacaoFuncional.tests.pages
             {
 
             }
-            return (_result, valores);
+            //return (_result, valores);
+            return _result;
         }
     }
 }

@@ -34,9 +34,14 @@ namespace AutomacaoFuncional.tests.steps
             bool result = false;
             string valores = "";
 
-            (result, valores) = pageAction.ValidarIniciados();
+            //(result, valores) = pageAction.ValidarIniciados();
 
-                Assert.That(result, Is.True, "Dados não conferem: " + valores);
+            //    Assert.That(result, Is.True, "Dados não conferem: " + valores);
+
+            result = pageAction.ValidarIniciados();
+
+            Assert.That(result, Is.True, "Dados não conferem");
+
         }
 
         [When(@"Valido pendente analise fundacred")]
@@ -45,9 +50,13 @@ namespace AutomacaoFuncional.tests.steps
             bool result = false;
             string valores = "";
 
-            (result, valores) = pageAction.ValidarPendenteFundacred();
+            //(result, valores) = pageAction.ValidarPendenteFundacred();
 
-                Assert.That(result, Is.True, "Dados não conferem: " + valores);
+            //    Assert.That(result, Is.True, "Dados não conferem: " + valores);
+
+            result = pageAction.ValidarPendenteFundacred();
+
+            Assert.That(result, Is.True, "Dados não conferem");
         }
 
         [When(@"Valido Pendente analise ies")]
@@ -56,9 +65,13 @@ namespace AutomacaoFuncional.tests.steps
             bool result = false;
             string valores = "";
 
-            (result, valores) = pageAction.ValidarPendenteIes();
+            //(result, valores) = pageAction.ValidarPendenteIes();
 
-                Assert.That(result, Is.True, "Dados não conferem: " + valores);
+            //    Assert.That(result, Is.True, "Dados não conferem: " + valores);
+
+            result = pageAction.ValidarPendenteIes();
+
+            Assert.That(result, Is.True, "Dados não conferem");
         }
 
         [When(@"Valido aprovados")]
@@ -67,9 +80,13 @@ namespace AutomacaoFuncional.tests.steps
             bool result = false;
             string valores = "";
 
-            (result, valores) = pageAction.ValidarAprovados();
+            //(result, valores) = pageAction.ValidarAprovados();
 
-                Assert.That(result, Is.True, "Dados não conferem: " + valores);
+            //    Assert.That(result, Is.True, "Dados não conferem: " + valores);
+
+            result = pageAction.ValidarAprovados();
+
+            Assert.That(result, Is.True, "Dados não conferem");
         }
 
         [When(@"Valido reprovados fundacred")]
@@ -78,9 +95,13 @@ namespace AutomacaoFuncional.tests.steps
             bool result = false;
             string valores = "";
 
-            (result, valores) = pageAction.ValidarReprovadosFundacred();
+            //(result, valores) = pageAction.ValidarReprovadosFundacred();
 
-                Assert.That(result, Is.True, "Dados não conferem: " + valores);
+            //    Assert.That(result, Is.True, "Dados não conferem: " + valores);
+
+            result = pageAction.ValidarReprovadosFundacred();
+
+            Assert.That(result, Is.True, "Dados não conferem");
         }
 
         [When(@"Valido reprovados ies")]
@@ -89,9 +110,13 @@ namespace AutomacaoFuncional.tests.steps
             bool result = false;
             string valores = "";
 
-            (result, valores) = pageAction.ValidarReprovadosIes();
+            //(result, valores) = pageAction.ValidarReprovadosIes();
 
-                Assert.That(result, Is.True, "Dados não conferem: " + valores);
+            //    Assert.That(result, Is.True, "Dados não conferem: " + valores);
+
+            result = pageAction.ValidarReprovadosIes();
+
+            Assert.That(result, Is.True, "Dados não conferem");
         }
         
     }

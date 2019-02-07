@@ -291,7 +291,6 @@
     <Compile Include="tests\pages\AccessPageActions.cs" />
     <Compile Include="tests\pages\AprovacaoIesActions.cs" />
     <Compile Include="tests\pages\AprovacaoIesMap.cs" />
-    <Compile Include="tests\pages\CamundaApiActions.cs" />
     <Compile Include="tests\pages\DadosDoEstudanteActions.cs" />
     <Compile Include="tests\pages\DadosDoEstudanteMap.cs" />
     <Compile Include="tests\pages\DadosDoFiadorActions.cs" />
@@ -316,7 +315,6 @@
     <Compile Include="tests\pages\SelecaoDeInstituicaoMap.cs" />
     <Compile Include="tests\pages\SelecionarDocumentosActions.cs" />
     <Compile Include="tests\pages\SelecionarDocumentosMap.cs" />
-    <Compile Include="tests\pages\ValidarCamundaActions.cs" />
     <Compile Include="tests\pages\ValidarFunilIesActions.cs" />
     <Compile Include="tests\pages\ValidarFunilIesMap.cs" />
     <Compile Include="tests\pages\ValidarRendaMinimaActions.cs" />
@@ -334,14 +332,11 @@
     <Compile Include="tests\steps\LoginSteps.cs" />
     <Compile Include="tests\steps\PreencherDadosDoCursoSteps.cs" />
     <Compile Include="tests\steps\PreencherDadosFiadorSteps.cs" />
-    <Compile Include="tests\steps\RenovacaoCamundaSteps.cs" />
     <Compile Include="tests\steps\ScopeFeatures.cs" />
     <Compile Include="tests\steps\SelecionarDocumentosSteps.cs" />
     <Compile Include="tests\steps\SelecionarInstituicaoSteps.cs" />
-    <Compile Include="tests\steps\ValidarCamundaSteps.cs" />
     <Compile Include="tests\steps\ValidarFunilIesSteps.cs" />
     <Compile Include="tests\steps\ValidarRendaSteps.cs" />
-    <Compile Include="tests\utils\CamundaAPI.cs" />
     <Compile Include="tests\utils\ClassDriver.cs" />
     <Compile Include="tests\utils\ClassInfo.cs" />
     <Compile Include="tests\utils\ClassUtilities.cs" />
