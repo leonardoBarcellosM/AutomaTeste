@@ -342,7 +342,6 @@
     <Compile Include="tests\utils\ClassUtilities.cs" />
     <Compile Include="tests\utils\ConsultaDB.cs" />
     <Compile Include="tests\utils\DadosDB.cs" />
-    <Compile Include="tests\utils\GetScreenshot.cs" />
     <Compile Include="tests\utils\MassaDeDados.cs" />
     <Compile Include="tests\utils\UpdateStatusDB.cs" />
   </ItemGroup>
